@@ -30,13 +30,13 @@ print(info)
 ```
 
 ## Parameters for `information_linking_orcid`
-* **first_name**: The first name of the author. **(Required)**  
-* **last_name**: The last name of the author. **(Required)**  
+* **`first_name`**: The first name of the author. **(Required)**  
+* **`last_name`**: The last name of the author. **(Required)**  
 
 ## Parameters for `information_linking`
-* **wikipedia_url**: The URL of a wikipedia entry (It has to be with with a curid such as 'https://en.wikipedia.org/wiki?curid=18630637'). **(Required)**  
-* **description**: The first 2 sentences of a wikipedia entry, *(deafult=True)*, *(Values: True, False)*. *(Optional)*  
-* **label**: The wikipedia title of a wikipedia entry, *(deafult=True)*, *(Values: True, False)*. *(Optional)*
-* **wikidata**: The wikidata url of a wikipedia entry, *(deafult=True)*, *(Values: True, False)*. *(Optional)*
-* **aliases**: The english wikidata aliases, *(deafult=True)*, *(Values: True, False)*. *(Optional)*
-* **dbpedia**: The dbpedia url of a wikipedia entry, *(deafult=True)*, *(Values: True, False)*. *(Optional)*
+* **`wikipedia_url`**: The URL of a wikipedia entry (It has to be with with a curid such as 'https://en.wikipedia.org/wiki?curid=18630637'). **(Required)**  
+* **`description`**: The first 2 sentences of a wikipedia entry, *(deafult=True)*, *(Values: True, False)*. *(Optional)*  
+* **`label`**: The wikipedia title of a wikipedia entry, *(deafult=True)*, *(Values: True, False)*. *(Optional)*
+* **`wikidata`**: The wikidata url of a wikipedia entry, *(deafult=True)*, *(Values: True, False)*. *(Optional)*
+* **`aliases`**: The english wikidata aliases, *(deafult=True)*, *(Values: True, False)*. *(Optional)*
+* **`dbpedia`**: The dbpedia url of a wikipedia entry, *(deafult=True)*, *(Values: True, False)*. *(Optional)*
