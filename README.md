@@ -1,4 +1,4 @@
-# 🧩 [Linking Information Queries on PyPI](https://pypi.org/project/linking-information-queries/)
+# 🧩 [Linking Information Queries](https://pypi.org/project/linking-information-queries/)
 It performs API calls to Wikipedia, Wikidata, DBpedia, and ORCID to retrieve and integrate structured information from multiple open knowledge sources.
 
 ## Main dependencies
