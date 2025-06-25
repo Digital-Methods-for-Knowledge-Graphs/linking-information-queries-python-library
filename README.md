@@ -5,6 +5,11 @@ It performs API calls to Wikipedia, Wikidata, DBpedia, and ORCID to retrieve and
 - python>=3.11
 - SPARQLWrapper==2.0.0
 - requests==2.32.4
+  
+## Instalation
+```cmd
+pip install linking-information-queries
+```
 
 ## Example & Usage
 ```python
