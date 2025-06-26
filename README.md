@@ -1,10 +1,16 @@
-# 🧩 [Linking Information Queries](https://pypi.org/project/linking-information-queries/)
+<div align="center">
+  
+# 🧩 Linking Information Queries
 It performs API calls to Wikipedia, Wikidata, DBpedia, and ORCID to retrieve and integrate structured information from multiple open knowledge sources.
+
+[![PyPi Version](https://img.shields.io/badge/PyPI-3776AB?logo=pypi&logoColor=white)](https://pypi.org/project/linking-information-queries/)
+
+</div>
 
 ## Main dependencies
 - python>=3.11
 - SPARQLWrapper==2.0.0
-- requests==2.32.4
+- requests
   
 ## 🛠️ Instalation
 ```cmd
