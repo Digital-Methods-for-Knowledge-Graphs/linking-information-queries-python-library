@@ -6,12 +6,12 @@ It performs API calls to Wikipedia, Wikidata, DBpedia, and ORCID to retrieve and
 - SPARQLWrapper==2.0.0
 - requests==2.32.4
   
-## Instalation
+## 🛠️ Instalation
 ```cmd
 pip install linking-information-queries
 ```
 
-## Example & Usage
+## 🚀 Quickstart
 ```python
 from linking_information_queries.information_linking_orcid import information_linking_orcid
 from linking_information_queries.information_linking_apis import information_linking
@@ -29,11 +29,11 @@ print(info)
 {"description": "Translation is the communication of the meaning of a source-language text by means of an equivalent target-language text. The English language draws a terminological distinction (which does not exist in every language) between translating (a written text) and interpreting (oral or signed communication between users of different languages); under this distinction, translation can begin only after the appearance of writing within a language community.", "label": "Translation", "wikidata": "https://www.wikidata.org/wiki/Q7553", "aliases": ["translate", "translating"], "dbpedia": "http://dbpedia.org/resource/Translation"}
 ```
 
-## Parameters for `information_linking_orcid`
+## 📊 Parameters for `information_linking_orcid`
 * **`first_name`**: The first name of the author. **(Required)**  
 * **`last_name`**: The last name of the author. **(Required)**  
 
-## Parameters for `information_linking`
+## 📊 Parameters for `information_linking`
 * **`wikipedia_url`**: The URL of a wikipedia entry (It has to be with with a curid such as 'https://en.wikipedia.org/wiki?curid=18630637'). **(Required)**  
 * **`description`**: The first 2 sentences of a wikipedia entry, *(deafult=True)*, *(Values: True, False)*. *(Optional)*  
 * **`label`**: The wikipedia title of a wikipedia entry, *(deafult=True)*, *(Values: True, False)*. *(Optional)*
