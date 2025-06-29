@@ -5,7 +5,7 @@ def retrieveORCIDinfo(first_name, last_name):
     inputs: first_name, last_name
     outputs: orcid_record"""
 
-    orcid_info = 'none'
+    orcid_info = 'NIL'
     headers = {'Content-Type': 'application/vnd.orcid+json'}
     query = 'https://pub.orcid.org/v3.0/search/?q=family-name:' + last_name+'+AND+given-names:'+first_name
     resp = requests.get(query, headers=headers)
@@ -19,6 +19,6 @@ def retrieveORCIDinfo(first_name, last_name):
             results = r.json()
             orcid_info = results['expanded-result'][0]
     except:
-        orcid_info = 'none'
+        orcid_info = 'NIL'
 
     return orcid_info
