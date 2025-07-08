@@ -14,7 +14,7 @@ It performs API calls to Wikipedia, Wikidata, DBpedia, and ORCID to retrieve and
   
 ## 🛠️ Instalation
 ```cmd
-pip install linking-information-queries
+pip install information-linking-queries
 ```
 
 ## 🚀 Quickstart
