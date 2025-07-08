@@ -1,9 +1,9 @@
 <div align="center">
   
-# 🧩 Linking Information Queries
+# 🧩 Information Linking Queries
 It performs API calls to Wikipedia, Wikidata, DBpedia, and ORCID to retrieve and integrate structured information from multiple open knowledge sources.
 
-[![PyPi Version](https://img.shields.io/badge/PyPI-3776AB?logo=pypi&logoColor=white)](https://pypi.org/project/linking-information-queries/)
+[![PyPi Version](https://img.shields.io/badge/PyPI-3776AB?logo=pypi&logoColor=white)](https://pypi.org/project/information-linking-queries/)
 
 </div>
 
@@ -19,8 +19,8 @@ pip install linking-information-queries
 
 ## 🚀 Quickstart
 ```python
-from linking_information_queries.information_linking_orcid import information_linking_orcid
-from linking_information_queries.information_linking_apis import information_linking
+from information_linking_queries.information_linking_orcid import information_linking_orcid
+from information_linking_queries.information_linking_apis import information_linking
 
 orcid = information_linking_orcid(first_name="Julie", last_name="Costopoulos")
 print(orcid)
